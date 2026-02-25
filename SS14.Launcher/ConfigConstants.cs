@@ -41,11 +41,13 @@ public static class ConfigConstants
     public const string TranslateUrl = "https://docs.spacestation14.com/en/general-development/contributing-translations.html";
 
     private static readonly UrlFallbackSet RobustBuildsBaseUrl = new([
+        "https://robust-builds.wylab.md/",
         "https://robust-builds.cdn.spacestation14.com/",
         "https://robust-builds.fallback.cdn.spacestation14.com/"
     ]);
 
     private static readonly UrlFallbackSet LauncherDataBaseUrl = new([
+        "https://launcher-data.wylab.md/",
         "https://launcher-data.cdn.spacestation14.com/",
         "https://launcher-data.fallback.cdn.spacestation14.com/"
     ]);
